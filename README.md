@@ -2,4 +2,4 @@
 
 CSS effect for keyboard keyboard animation
 
-![css-animation](https://user-images.githubusercontent.com/29001162/97782609-42266900-1b71-11eb-9141-f68d3742c5a1.gif)
+![css-animation](https://user-images.githubusercontent.com/29001162/97783289-7a2fab00-1b75-11eb-8b82-8b00c1415179.gif)

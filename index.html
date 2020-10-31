@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Css Animation- Matheus Ícaro</title>
+
+    <style>
+      p {
+        border-right: 0.15em solid;
+        font-family: 'Courier';
+        font-size: 20px;
+        white-space: nowrap;
+        overflow: hidden;
+        width: fit-content;
+      }
+
+      p {
+        width: 100%;
+        max-width: fit-content;
+        opacity: 0;
+
+        -webkit-animation: type 2s steps(40, end), blink 0.2s step-end infinite alternate;
+        animation: type 2s steps(40, end), blink 0.2s step-end infinite alternate;
+
+        -webkit-animation-delay: 2s;
+        animation-delay: 2s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      }
+
+      p:nth-child(2) {
+        -webkit-animation-delay: 4s;
+        animation-delay: 4s;
+      }
+
+      p:nth-child(3) {
+        -webkit-animation-delay: 6s;
+        animation-delay: 6s;
+      }
+
+      p:nth-child(4) {
+        -webkit-animation-delay: 8s;
+        animation-delay: 8s;
+      }
+
+      p:nth-child(5) {
+        opacity: 0;
+        -webkit-animation: typefinal 2s steps(40, end), blink 0.2s step-end infinite alternate;
+        animation: typefinal 2s steps(40, end), blink 0.2s step-end infinite alternate;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        animation-delay: 10s;
+        -webkit-animation-delay: 10s;
+      }
+
+      @keyframes type {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        99.9% {
+          border-right: 0.15em solid;
+        }
+        100% {
+          opacity: 1;
+          border: none;
+        }
+      }
+
+      @-webkit-keyframes type {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        99.9% {
+          border-right: 0.15em solid;
+        }
+        100% {
+          opacity: 1;
+          border: none;
+        }
+      }
+
+      @keyframes typefinal {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @-webkit-keyframes typefinal {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes blink {
+        50% {
+          border-color: transparent;
+        }
+      }
+      @-webkit-keyframes blink {
+        50% {
+          border-color: tranparent;
+        }
+      }
+
+      @keyframes type {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        99.9% {
+          border-right: 0.15em solid;
+        }
+        100% {
+          opacity: 1;
+          border: none;
+        }
+      }
+
+      @-webkit-keyframes type {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        99.9% {
+          border-right: 0.15em solid;
+        }
+        100% {
+          opacity: 1;
+          border: none;
+        }
+      }
+
+      @keyframes typefinal {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @-webkit-keyframes typefinal {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes blink {
+        50% {
+          border-color: transparent;
+        }
+      }
+      @-webkit-keyframes blink {
+        50% {
+          border-color: tranparent;
+        }
+      }
+
+      article {
+        background-color: #2f2f2f;
+        color: white;
+        padding: 2%;
+        height: 250px;
+      }
+
+      .Const {
+        color: #2c7ab3;
+      }
+
+      .Var {
+        color: #9cdcfe;
+      }
+
+      .String {
+        color: #ce9178;
+      }
+
+      .Func {
+        color: #dcdcaa;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <p><span class="Const">const </span> <span class="Var">developer</span> = {</p>
+      <p style="padding-left: 30px">thought: <span class="String">"The only way to do a good job is to love what you do"</span>,</p>
+      <p style="padding-left: 30px">characteristic: <span class="String">"Likes to solve problems with code and new technologies"</span></p>
+      <p>};</p>
+      <p><span class="Const">this</span>.<span class="Func">isMyWork</span>(<span class="Var">developer</span>);</p>
+    </article>
+  </body>
+</html>

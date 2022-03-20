@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "en": {
+      "intro": "My own CSS effect of keyboard animation used in my personal projects.      ",
+      "kind": "Open Source",
+      "name": "Keyboard animation CSS effect"
+    },
+    "es": {
+      "intro": "Mi propio efecto CSS de animación de teclado utilizado en mis proyectos personales.",
+      "kind": "Open Source",
+      "name": "Efecto CSS de animación de teclado"
+    },
+    "fr": {
+      "intro": "Mon propre effet CSS d'animation de clavier utilisé dans mes projets personnels.",
+      "kind": "Open Source",
+      "name": "Effet CSS d'animation du clavier"
+    },
+    "pt": {
+      "intro": "Meu próprio efeito CSS de animação de teclado usado em meus projetos pessoais.",
+      "kind": "Open Source",
+      "name": "Efeito CSS de animação de teclado"
+    }
+  },
+  "stack": {
+    "frontend": [
+      {
+        "name": "Html",
+        "tags": [
+          "Css",
+          "Animation",
+          "Css-Animation",
+          "KeyFrames"
+        ]
+      }
+    ],
+    "tags": [
+      "Css",
+      "Animation",
+      "Front-end",
+      "KeyFrames"
+    ]
+  }
+}

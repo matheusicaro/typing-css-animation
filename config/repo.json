@@ -21,12 +21,6 @@
       "name": "Efeito CSS de animação de teclado"
     }
   },
-      "tags": [
-      "Css",
-      "Animation",
-      "Front-end",
-      "KeyFrames"
-    ],
   "stack": {
     "frontend": [
       {
@@ -39,5 +33,11 @@
         ]
       }
     ]
-  }
+  },
+  "tags": [
+    "Css",
+    "Animation",
+    "Front-end",
+    "KeyFrames"
+  ]
 }

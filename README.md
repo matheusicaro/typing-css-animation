@@ -5,4 +5,4 @@
 
 ### CSS effect for keyboard keyboard animation
 
-![css-animation](https://github.com/matheusicaro/typing-css-animation/blob/master/preview.gif)
+![css-animation](https://github.com/matheusicaro/typing-css-animation/blob/main/preview.gif)
